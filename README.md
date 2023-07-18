@@ -295,7 +295,7 @@
 
     - home.html
 
-    - ![python](img/img66PNG)
+    - ![python](img/img66.PNG)
 
 - Ejecutamos el programa
 
