@@ -106,168 +106,168 @@
 
 - Veamos si tenemos algunas migraciones. No tenemos cambios detectados
     
-    - ![python](img\img2.PNG)
+    - ![python](img/img2.PNG)
 
 - Cada vez que ejecutamos el proyecto tenemos este mensaje.
 
-    - ![python](img\img3.PNG)
+    - ![python](img/img3.PNG)
 
 - Ejecutamos las migraciones
 
-    - ![python](img\img4.PNG)
+    - ![python](img/img4.PNG)
 
 - Al ejecutar se crean las tablas dentro de la base de datos
 
-    - ![python](.\img\img5.PNG)
+    - ![python](img/img5.PNG)
 
 - En un inicio mi base datos.
 
-    - ![python](.\img\img6.PNG)
+    - ![python](img/img6.PNG)
 
 - Despues de haber ejecutado las migraciones y actualizado la base datos.(Base de datos por defecto en Django)
 
-    - ![python](.\img\img7.PNG)
+    - ![python](img/img7.PNG)
   
 - Veamos una de nuestras tablas(auth_user)
 
-    - ![python](.\img\img8.PNG)
-    - ![python](.\img\img9.PNG)
-    - ![python](.\img\img10.PNG)
+    - ![python](img/img8.PNG)
+    - ![python](img/img9.PNG)
+    - ![python](img/img10.PNG)
 
 - Ahora dentro de models.py vamos a crear un modelo especifico.
 
-    - ![python](.\img\img11.PNG)
+    - ![python](img/img11.PNG)
 
 - Tenemos que conectar la Base de Datos. Dentro de settings.py conectamos nuestra aplicación con el proyecto.
 
-    - ![python](.\img\img12.PNG)
+    - ![python](img/img12.PNG)
 
 - Realizemos las nuevas migraciones
 
-    - ![python](.\img\img13.PNG)
-    - ![python](.\img\img14.PNG)
+    - ![python](img/img13.PNG)G)
+    - ![python](img/img14.PNG)
 
 - Vemos que se crea una nueva carpeta 0001_initial.py, un modelo del proyecto.
 
-    - ![python](.\img\img15.PNG)
-    - ![python](.\img\img16.PNG)
+    - ![python](img/img15.PNG)
+    - ![python](img/img16.PNG)
 
 - Realizamos la migración, y vemos que se realizo correctamente.
 
-    - ![python](.\img\img17.PNG)
+    - ![python](img/img17.PNG)
 
 - Si actualizamos nuestra Base de Datos vemos que aumento una tabla.
 
-    - ![python](.\img\img18.PNG)
+    - ![python](img/img18.PNG)
 
 - La nueva tabla que creamos solo contiene por ahora un id(por defecto) y un name(el que se creo).
 
-    - ![python](.\img\img19.PNG)
+    - ![python](img/img19.PNG)
 
 - Creamos otra tabla llamada Task. Y vamos a relacionarla con la tabla Project. Para esto usamos el ForeignKey. 
 
-    -  ![python](.\img\img20.PNG)
+    - ![python](img/img20.PNG)
 
 - Ejecutamos
 
-    -  ![python](.\img\img21.PNG)
-    -  ![python](.\img\img22.PNG)
-    -  ![python](.\img\img23.PNG)
+    - ![python](img/img21.PNG)
+    - ![python](img/img22.PNG)
+    - ![python](img/img23.PNG)
   
 - Al ver el archivo que se creo vemos que tiene una dependencia del archivo anterior.
 
-    - ![python](.\img\img24.PNG)
+    - ![python](img/img24.PNG)
 
-    - ![python](.\img\img25.PNG)
+    - ![python](img/img25.PNG)
 
 - Volvemos a aplicar las migraciones
 
-     - ![python](.\img\img26.PNG)
+     - ![python](img/img26.PNG)
 
 
-     - ![python](.\img\img27.PNG)
+     - ![python](img/img27.PNG)
 
 - Actualizamos la base de datos y vemos que aumenta una tabla. 
 
-    -  ![python](.\img\img28.PNG)
-    -  ![python](.\img\img29.PNG)
+    - ![python](img/img28.PNG)
+    - ![python](img/img29.PNG)
 
   - Ahora trabajaremos con el shell
 
-    -  ![python](.\img\img30.PNG)
+    - ![python](img/img30.PNG)
   
 - Importamos las dos clases
 
-    - ![python](.\img\img31.PNG)
+    - ![python](img/img31.PNG)
 
 - Creamos un objeto basado en la clase. En este caso se llama aplicación movil
 
-    - ![python](.\img\img32.PNG)
-    - ![python](.\img\img33.PNG)
-    - ![python](.\img\img34.PNG)
+    - ![python](img/img32.PNG)
+    - ![python](img/img33.PNG)
+    - ![python](img/img34.PNG)
 
 ## Relación de muchos a muchos
 
 - Ahora creo otro proyecto
 
-    - ![python](.\img\img35.PNG)
-    - ![python](.\img\img36.PNG)
+    - ![python](img/img35.PNG)
+    - ![python](img/img36.PNG)
 
 - Ahora vamos a agregar tareas dentro de Task, vemos que en un inicio no tenemos niguna tarea. Por eso nos muestra un QuerySet[] vacio.
 
-    - ![python](.\img\img37.PNG)
-    - ![python](.\img\img38.PNG)
+    - ![python](img/img37.PNG)
+    - ![python](img/img38.PNG)
 
 - Vamos a agregar una tarea dentro del proyecto Task. Podemos ver que dentro de Task tenemos tablas como titulo, descripcion y proyecto.
 
-    - ![python](.\img\img39.PNG)
-    - ![python](.\img\img40.PNG)
-    - ![python](.\img\img41.PNG)
-    - ![python](.\img\img42.PNG)
-    - ![python](.\img\img43.PNG)
+    - ![python](img/img39.PNG)
+    - ![python](img/img40.PNG)
+    - ![python](img/img41.PNG)
+    - ![python](img/img42.PNG)
+    - ![python](img/img43.PNG)
 #
 
 ## Enviar E-mail en Django
 
 - Primero incluimos las Urls de envio
-    - ![python](.\img\img44.PNG)
-    - ![python](.\img\img45.PNG)
-    - ![python](.\img\img46.PNG)
+    - ![python](img/img44.PNG)
+    - ![python](img/img45.PNG)
+    - ![python](img/img46.PNG)
 
 - Luego realizamos algunas configuraciones de correo.
 
-    - ![python](.\img\img47.PNG)
+    - ![python](img/img47.PNG)
 
 - Importamos redirect, EmailMessage.
-    - ![python](.\img\img48.PNG)
+    - ![python](img/img48.PNG)
 
 - En views.py creamos la función index y correo
-    - ![python](.\img\img49.PNG)
-    - ![python](.\img\img50.PNG)
+    - ![python](img/img49.PNG)
+    - ![python](img/img50.PNG)
 
 - Dentro de los templates tendremos correo.html y home.html
   
-    - ![python](.\img\img51.PNG)
-    - ![python](.\img\img52.PNG)
+    - ![python](img/img51.PNG)
+    - ![python](img/img52.PNG)
 
 - Ejecutamos
 
-    - ![python](.\img\img54.PNG)
-    - ![python](.\img\img55.PNG)
-    - ![python](.\img\img56.PNG)
+    - ![python](img/img54.PNG)
+    - ![python](img/img55.PNG)
+    - ![python](img/img56.PNG)
 
 - Enviaremosun mensaje de prueba a mi correo institucional.
 
-    - ![python](.\img\img57.PNG)
+    - ![python](img/img57.PNG)
 
 - Dentro de la url nos dice que el mensaje es valido. 
 
-    - ![python](.\img\img58.PNG)
+    - ![python](img/img58.PNG)
 
 - Ahora nos dirigimos a nuestro correo para ver el mensaje.
 
-    - ![python](.\img\img59.PNG)
-    - ![python](.\img\img60.PNG)
+    - ![python](img/img59.PNG)
+    - ![python](img/img60.PNG)
 
 #
 
@@ -275,42 +275,42 @@
 
 - Primero añadimos la aplicación
 
-    - ![python](.\img\img61.PNG)
+    - ![python](img/img61.PNG)
 
     - urls.py project
   
-    - ![python](.\img\img62.PNG)
+    - ![python](img/img62.PNG)
 
     -urls.py app
 
-    - ![python](.\img\img63.PNG)
+    - ![python](img/img63.PNG)
 
 - En views.py creamos dos funciones(home y pdf) dentro de las cuales tenemos los templates(home.html y pdf.html) e importamos html2pdf.
 
-    - ![python](.\img\img64.PNG)
+    - ![python](img/img64.PNG)
 
     - pdf.html
   
-    - ![python](.\img\img65.PNG)
+    - ![python](img/img65.PNG)
 
     - home.html
 
-    - ![python](.\img\img66.PNG)
+    - ![python](img/img626PNG)
 
 - Ejecutamos el programa
 
-    - ![python](.\img\img67.PNG)
-    - ![python](.\img\img68.PNG)
+    - ![python](img/img67.PNG)
+    - ![python](img/img68.PNG)
 
 - Creamos un archivo pdf.py, aqui importamos bit IO, get_template y pisa.
 
-    - ![python](.\img\img69.PNG)
-    - ![python](.\img\img70.PNG)
+    - ![python](img/img69.PNG)
+    - ![python](img/img70.PNG)
 
 - Ejecutamos el programa y damos generar pdf y nos imprimira el pdf.
 
-    - ![python](.\img\img71.PNG)
-    - ![python](.\img\img72.PNG)
+    - ![python](img/img71.PNG)
+    - ![python](img/img72.PNG)
 
 
 #
