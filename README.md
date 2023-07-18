@@ -305,6 +305,7 @@
 - Creamos un archivo pdf.py, aqui importamos bit IO, get_template y pisa.
 
     - ![python](img/img69.PNG)
+ 
     - ![python](img/img70.PNG)
 
 - Ejecutamos el programa y damos generar pdf y nos imprimira el pdf.
