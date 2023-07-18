@@ -313,7 +313,13 @@
     - ![python](img/img71.PNG)
     - ![python](img/img72.PNG)
 
+- Agregamos las imagenes de los commits mas importantes
 
+    - ![python](img/img73.PNG)
+    - ![python](img/img74.PNG)
+    - ![python](img/img75.PNG)
+    - ![python](img/img76.PNG)
+    - ![python](img/img77.PNG) 
 #
 
 ## REFERENCIAS
