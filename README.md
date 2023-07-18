@@ -102,7 +102,7 @@
 
 - Primero instalamos DB Browser for SQLite. para poder ver una interfaz grafica para poder ver la base de datos de SQLite.
 
-    - ![python](img\img1.PNG)
+    - ![python](img/img1.PNG)
 
 - Veamos si tenemos algunas migraciones. No tenemos cambios detectados
     
